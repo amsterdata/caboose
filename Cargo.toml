@@ -9,6 +9,6 @@ crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = { version = "0.17.3", features = ["extension-module"] }
-caboose_index = { path = "../caboose_index" }
+caboose_index = { git = "https://github.com/schelterlabs/caboose_index" }
 numpy = "0.17.2"
 sprs = "0.11"

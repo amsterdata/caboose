@@ -99,6 +99,7 @@ dependencies = [
 [[package]]
 name = "caboose_index"
 version = "0.1.0"
+source = "git+https://github.com/schelterlabs/caboose_index#d0d90376658a3e5c0626c29222268eb65a564918"
 dependencies = [
  "average",
  "bincode",

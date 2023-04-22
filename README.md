@@ -1,6 +1,13 @@
 # caboose
 
-## Installation
+This repository contains the code for our recent SIGIR paper on unlearning data from kNN recommendations models:
+
+_Sebastian Schelter, Mozhdeh Ariannezhad, Maarten de Rijke (2023). Forget Me Now - Fast and Exact Unlearning in Neighborhood-Based Recommendation. ACM SIGIR'23_ 
+
+This code contains the Python frontend and the integration into next-basket recommendation algorithms. The Rust code for the underlying index is available at https://github.com/schelterlabs/caboose_index .
+
+
+## Installation for Development
 
 ### Preliminaries
  * Make sure you have Python 3.9 and Rust installed: https://www.rust-lang.org/tools/install
